@@ -1,9 +1,9 @@
 [gd_scene load_steps=10 format=3 uid="uid://ducrupk233qvp"]
 
 [ext_resource type="Texture2D" uid="uid://dgcw0vs3drey1" path="res://assets/background.png" id="1"]
-[ext_resource type="PackedScene" path="res://scenes/Buttons/VioletGenerator/VioletGenerator.tscn" id="2"]
+[ext_resource type="PackedScene" uid="uid://4mr77lbai2dv" path="res://scenes/Buttons/VioletGenerator/VioletGenerator.tscn" id="2"]
 [ext_resource type="PackedScene" uid="uid://nwbl03ueqyor" path="res://scenes/Buttons/RedGenerator/RedGenerator.tscn" id="3"]
-[ext_resource type="PackedScene" path="res://scenes/Buttons/Reset/Reset.tscn" id="4"]
+[ext_resource type="PackedScene" uid="uid://c3k2rrc7uvthp" path="res://scenes/Buttons/Reset/Reset.tscn" id="4"]
 [ext_resource type="Script" path="res://scenes/Buttons/RedGenerator/RedGenerator.gd" id="4_p1ece"]
 [ext_resource type="Script" path="res://scenes/Menu/Menu.gd" id="5"]
 [ext_resource type="Script" path="res://scenes/Buttons/VioletGenerator/VioletGenerator.gd" id="6_wtgmn"]
@@ -12,7 +12,7 @@
 [sub_resource type="RectangleShape2D" id="1"]
 size = Vector2(1519.98, 67.3924)
 
-[node name="Menu" type="Node2D"]
+[node name="Menu" type="Node2D" groups=["blocks"]]
 script = ExtResource("5")
 
 [node name="Background" type="Sprite2D" parent="."]

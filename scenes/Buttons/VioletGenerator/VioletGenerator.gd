@@ -13,7 +13,7 @@ func _process(delta):
 
 
 func _on_button_down():
-	pass # Replace with function body.
+	generate_block();
 
 func generate_block():
 	var new_block_violet = block_violet.instantiate();
